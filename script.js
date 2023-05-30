@@ -19,16 +19,16 @@ let item8 = new Items("./assets/guitare.jpg", "Guitare acoustique", "Guitare en 
 let item9 = new Items("./assets/scooter.jpg", "Xiaomi Mi Electric Scooter", "Ordinateur portable puissant avec écran Retina et processeur rapide.", "Electronique"); 
 let item10 = new Items("./assets/jbl.jpg", "JBL Charge 4", "Enceinte portable étanche avec un son puissant et une longue autonomie de batterie.", "Electronique"); 
 
-let item11 = new Items("./asset/0818279025057_h_f_l_0.webp", "GoPro Hero 9 Black", "Caméra polyvalente pour capturer des vidéos et des photos d'aventures sportives et en plein air.", "Electronique");
-let item12 = new Items("./asset/Nespresso Vertuo.avif", "Nespresso Vertuo", "Machine à café automatique avec une large variété de capsules pour préparer de délicieux expressos.", "Cuisine");
-let item13 = new Items("./asset/SONY WH 100 XM4.avif", "Sony WH-1000XM4", "Casque audio haut de gamme avec réduction de bruit active et une qualité sonore exceptionnelle.", "Electronique");
-let item14 = new Items("./asset/DJI MAVIC AIR 2.jpg", "DJI Mavic Air 2", "Drone compact et puissant pour capturer des images aériennes et des vidéos de haute qualité", "Electronique");
-let item15 = new Items("./asset/TheNorthFaceTerra65.webp", "The North Face Terra 65", "Sac à dos spacieux et confortable pour les randonnées de plusieurs jours en montagne.", "Sport");
-let item16 = new Items("./asset/Catan.avif", "Catan", "Jeu de stratégie populaire où les joueurs tentent de coloniser une île en collectant des ressources.", "Jeux");
-let item17 = new Items("./asset/irobotroomba980.jpg", "iRobot Roomba 980", "Robot aspirateur autonome qui nettoie les sols avec efficacité et programmable via une application.", "Electronique");
-let item18 = new Items("./asset/IpodTouch", "IPod Touch", "Lecteur de musique compact avec écran tactile et une grande capacité de stockage.", "Electronique");
-let item19 = new Items("./asset/ASUS ROG Swift.jpeg", "ASUS ROG Swift PG279Q", "Moniteur haute résolution avec un taux de rafraîchissement élevé pour une expérience de jeu fluide.", "Jeux");
-let item20 = new Items("./asset/Samsonite Spinner.jpeg", "Samsonite Spinner", "Valise durable et pratique avec des roulettes pour faciliter les déplacements.", "Transport");
+let item11 = new Items("./assets/0818279025057_h_f_l_0.webp", "GoPro Hero 9 Black", "Caméra polyvalente pour capturer des vidéos et des photos d'aventures sportives et en plein air.", "Electronique");
+let item12 = new Items("./assets/Nespresso Vertuo.avif", "Nespresso Vertuo", "Machine à café automatique avec une large variété de capsules pour préparer de délicieux expressos.", "Cuisine");
+let item13 = new Items("./assets/SONY WH 100 XM4.avif", "Sony WH-1000XM4", "Casque audio haut de gamme avec réduction de bruit active et une qualité sonore exceptionnelle.", "Electronique");
+let item14 = new Items("./assets/DJI MAVIC AIR 2.jpg", "DJI Mavic Air 2", "Drone compact et puissant pour capturer des images aériennes et des vidéos de haute qualité", "Electronique");
+let item15 = new Items("./assets/TheNorthFaceTerra65.webp", "The North Face Terra 65", "Sac à dos spacieux et confortable pour les randonnées de plusieurs jours en montagne.", "Sport");
+let item16 = new Items("./assets/Catan.avif", "Catan", "Jeu de stratégie populaire où les joueurs tentent de coloniser une île en collectant des ressources.", "Jeux");
+let item17 = new Items("./assets/irobotroomba980.jpg", "iRobot Roomba 980", "Robot aspirateur autonome qui nettoie les sols avec efficacité et programmable via une application.", "Electronique");
+let item18 = new Items("./assets/IpodTouch", "IPod Touch", "Lecteur de musique compact avec écran tactile et une grande capacité de stockage.", "Electronique");
+let item19 = new Items("./assets/ASUS ROG Swift.jpeg", "ASUS ROG Swift PG279Q", "Moniteur haute résolution avec un taux de rafraîchissement élevé pour une expérience de jeu fluide.", "Jeux");
+let item20 = new Items("./assets/Samsonite Spinner.jpeg", "Samsonite Spinner", "Valise durable et pratique avec des roulettes pour faciliter les déplacements.", "Transport");
 
 const Item21 = new Items("https://www.somagic.fr/1655-medium_default/stila-electrique.jpg", "Plancha électrique", "Plancha électrique pour griller et cuisiner des aliments de manière saine et savoureuse.", "cuisine");
 const Item22 = new Items("https://www.google.com/imgres?imgurl=https%3A%2F%2Flexcofitness.fr%2Fwp-content%2Fuploads%2F2019%2F12%2FAppareil-de-musculation-Plate-Loaded-Incline-Press-Lexco-mod%25C3%25A8le-LS-516.jpg&tbnid=gr6g0nsGmabBzM&vet=12ahUKEwiNnrKB9Jz_AhX1pUwKHWjFDmoQMygVegUIARCpAw..i&imgrefurl=https%3A%2F%2Flexcofitness.fr%2Fproduct%2Fappareil-de-musculation-incline-press-lexco-modele-ls-516%2F&docid=LonFfDf25tI70M&w=530&h=546&q=image%20appareil%20fitness&ved=2ahUKEwiNnrKB9Jz_AhX1pUwKHWjFDmoQMygVegUIARCpAw", "Appareil de fitness", "Appareil d'exercice pour le cardio-training et le renforcement musculaire à domicile.", "Sport");
