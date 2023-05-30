@@ -1,19 +1,19 @@
 class Items {
-    constructor(name, description, image, category) {
+    constructor(image, name, description, category) {
+        this.image = image;
         this.name = name;
         this.description = description;
-        this.image = image;
         this.category = category;
     }
 }
 
-let item1 = ("MacBook Pro", "Ordinateur portable puissant avec écran Retina et processeur rapide.", "./assets/mcbook_pro.jpeg", "Electronique"); 
-let item2 = ("iPhone 12", "Téléphone haut de gamme avec un superbe écran et une caméra avancée.", "./assets/iphone12.jpg", "Electronique"); 
-let item3 = ("VTT Trek", "Vélo tout terrain robuste pour des aventures en montagne.", "https://www.bikelive.com/wp-content/uploads/2020/09/Trek-Supercaliber-9.9-9-scaled.jpg", "Sport"); 
-let item4 = ("Nikon D850", "Appareil photo p^rofessionnel avec une résolution exceptionnelle et de nombreuses fonctionnalités avancée.", "https://static.fnac-static.com/multimedia/Images/FR/NR/99/81/89/9011609/1520-1/tsp20170825094206/Reflex-Nikon-D850-Boitier-nu-Noir.jpg", "Electronique"); 
-let item5 = ("PlayStation 5", "Console de jeux de nouvelle génération offrant des graphismes impressionnants et une expérience de jeu immersive.", "https://www.cdiscount.com/pdt2/I/S/C/1/350x350/PS5DIGCHASSISC/rw/console-playstation-5-edition-digitale.jpg", "Jeux"); 
-let item6 = ("MacBook Pro", "Ordinateur portable puissant avec écran Retina et processeur rapide.", "https://www.cdiscount.com/pdt2/F/N/A/1/700x700/FPTR2FNA/rw/apple-macbook-pro-15-reconditionne-core-i7-2-8.jpg", "Electronique"); 
-let item7 = ("MacBook Pro", "Ordinateur portable puissant avec écran Retina et processeur rapide.", "https://www.cdiscount.com/pdt2/F/N/A/1/700x700/FPTR2FNA/rw/apple-macbook-pro-15-reconditionne-core-i7-2-8.jpg", "Electronique"); 
-let item8 = ("MacBook Pro", "Ordinateur portable puissant avec écran Retina et processeur rapide.", "https://www.cdiscount.com/pdt2/F/N/A/1/700x700/FPTR2FNA/rw/apple-macbook-pro-15-reconditionne-core-i7-2-8.jpg", "Electronique"); 
-let item9 = ("MacBook Pro", "Ordinateur portable puissant avec écran Retina et processeur rapide.", "https://www.cdiscount.com/pdt2/F/N/A/1/700x700/FPTR2FNA/rw/apple-macbook-pro-15-reconditionne-core-i7-2-8.jpg", "Electronique"); 
-let item10 = ("MacBook Pro", "Ordinateur portable puissant avec écran Retina et processeur rapide.", "https://www.cdiscount.com/pdt2/F/N/A/1/700x700/FPTR2FNA/rw/apple-macbook-pro-15-reconditionne-core-i7-2-8.jpg", "Electronique"); 
+let item1 = new Items ("./assets/mcbook_pro.jpeg", "MacBook Pro", "Ordinateur portable puissant avec écran Retina et processeur rapide.", "Electronique"); 
+let item2 = new Items ("./assets/iphone12.jpg", "iPhone 12", "Téléphone haut de gamme avec un superbe écran et une caméra avancée.", "Electronique"); 
+let item3 = new Items ("./assets/vtt.jpg", "VTT Trek", "Vélo tout terrain robuste pour des aventures en montagne.", "Sport"); 
+let item4 = new Items ("./assets/nikon.jpg", "Nikon D850", "Appareil photo p^rofessionnel avec une résolution exceptionnelle et de nombreuses fonctionnalités avancée.", "Electronique"); 
+let item5 = new Items ("./assets/ps5.jpg", "PlayStation 5", "Console de jeux de nouvelle génération offrant des graphismes impressionnants et une expérience de jeu immersive.", "Jeux"); 
+let item6 = new Items ("./assets/apple_watch.jpg", "Apple Watch Series 6", "Montre connectée avec suivi de la condition physique, notifications et fonctionnalités avancées.", "Electronique"); 
+let item7 = new Items ("./assets/ipad_pro.jpg", "iPad Pro", "Tablette haut de gamme avec un écran Retina et des performances exceptionnelles.", "Electronique"); 
+let item8 = new Items ("./assets/guitare.jpg", "Guitare acoustique", "Guitare en bois de qualité supérieure avec un son riche et une belle finition.", "Musique"); 
+let item9 = new Items ("./assets/scooter.jpg", "Xiaomi Mi Electric Scooter", "Ordinateur portable puissant avec écran Retina et processeur rapide.", "Electronique"); 
+let item10 = new Items ("jbl.jpg", "JBL Charge 4", "Enceinte portable étanche avec un son puissant et une longue autonomie de batterie.", "Electronique"); 
