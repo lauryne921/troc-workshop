@@ -17,7 +17,7 @@ let item6 = new Items("./assets/apple_watch.jpg", "Apple Watch Series 6", "Montr
 let item7 = new Items("./assets/ipad_pro.jpg", "iPad Pro", "Tablette haut de gamme avec un écran Retina et des performances exceptionnelles.", "Electronique"); 
 let item8 = new Items("./assets/guitare.jpg", "Guitare acoustique", "Guitare en bois de qualité supérieure avec un son riche et une belle finition.", "Musique"); 
 let item9 = new Items("./assets/scooter.jpg", "Xiaomi Mi Electric Scooter", "Ordinateur portable puissant avec écran Retina et processeur rapide.", "Electronique"); 
-let item10 = new Items("jbl.jpg", "JBL Charge 4", "Enceinte portable étanche avec un son puissant et une longue autonomie de batterie.", "Electronique"); 
+let item10 = new Items("./assets/jbl.jpg", "JBL Charge 4", "Enceinte portable étanche avec un son puissant et une longue autonomie de batterie.", "Electronique"); 
 
 const Item21 = new Items("https://www.somagic.fr/1655-medium_default/stila-electrique.jpg", "Plancha électrique", "Plancha électrique pour griller et cuisiner des aliments de manière saine et savoureuse.", "cuisine");
 const Item22 = new Items("https://www.google.com/imgres?imgurl=https%3A%2F%2Flexcofitness.fr%2Fwp-content%2Fuploads%2F2019%2F12%2FAppareil-de-musculation-Plate-Loaded-Incline-Press-Lexco-mod%25C3%25A8le-LS-516.jpg&tbnid=gr6g0nsGmabBzM&vet=12ahUKEwiNnrKB9Jz_AhX1pUwKHWjFDmoQMygVegUIARCpAw..i&imgrefurl=https%3A%2F%2Flexcofitness.fr%2Fproduct%2Fappareil-de-musculation-incline-press-lexco-modele-ls-516%2F&docid=LonFfDf25tI70M&w=530&h=546&q=image%20appareil%20fitness&ved=2ahUKEwiNnrKB9Jz_AhX1pUwKHWjFDmoQMygVegUIARCpAw", "Appareil de fitness", "Appareil d'exercice pour le cardio-training et le renforcement musculaire à domicile.", "Sport");
