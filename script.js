@@ -78,19 +78,22 @@ let itemsArray = [
 
 let itemImage = itemsArray.map((item) => item.image);
 
-console.log(itemImage);
-const test = document.getElementById('test'); 
-
-document.getElementById('btn').addEventListener('click', () => {
+window.addEventListener('load', () => {
     console.log('hey');
-    itemImage.forEach(element => {
-        let imageContainer = document.createElement('img'); 
-        imageContainer.src = `${element}`; 
+    let html = '';
+
+    itemsArray.forEach((item) => {
+        html += `
+            <div class="item">
+            <img class="image" src="${item.image}" alt="${item.name}">
+            <h3 class="name">${item.name}</h3>
+            <p class="description">${item.description}</p>
+            <p class="category">${item.category}</p>
+            </div>
+        `;
     });
+    test.innerHTML = html;
 });
 
-itemImage.forEach(element => {
-    let imageContainer = document.createElement('img'); 
-    imageContainer.src = `${element}`; 
-});
+
 
