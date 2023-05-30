@@ -47,6 +47,7 @@ const Item30 = new Items("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.
 
 const test = document.getElementById("test"); 
 
-Items.forEach(item => {
-    test.append(item.image); 
-});
+for (let i = 0; i < Items.length; i++) {
+    const itemName = Items[i].nom;
+    console.log(itemName);
+}
