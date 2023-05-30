@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Items {
     constructor(name, description, image, category) {
         this.name = name;
@@ -6,6 +7,7 @@ class Items {
         this.category = category;
     }
 }
+<<<<<<< HEAD
 
 const Item21 = new Item("https://www.somagic.fr/1655-medium_default/stila-electrique.jpg", "Plancha électrique", "Plancha électrique pour griller et cuisiner des aliments de manière saine et savoureuse.", "cuisine");
 const Item22 = new Item("https://www.google.com/imgres?imgurl=https%3A%2F%2Flexcofitness.fr%2Fwp-content%2Fuploads%2F2019%2F12%2FAppareil-de-musculation-Plate-Loaded-Incline-Press-Lexco-mod%25C3%25A8le-LS-516.jpg&tbnid=gr6g0nsGmabBzM&vet=12ahUKEwiNnrKB9Jz_AhX1pUwKHWjFDmoQMygVegUIARCpAw..i&imgrefurl=https%3A%2F%2Flexcofitness.fr%2Fproduct%2Fappareil-de-musculation-incline-press-lexco-modele-ls-516%2F&docid=LonFfDf25tI70M&w=530&h=546&q=image%20appareil%20fitness&ved=2ahUKEwiNnrKB9Jz_AhX1pUwKHWjFDmoQMygVegUIARCpAw", "Appareil de fitness", "Appareil d'exercice pour le cardio-training et le renforcement musculaire à domicile.", "Sport");
@@ -18,3 +20,25 @@ const Item28 = new Item("https://www.google.com/imgres?imgurl=https%3A%2F%2Fcont
 const Item29 = new Item("https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.bfmtv.com%2Fcomparateur%2Fwp-content%2Fuploads%2F2020%2F09%2Funnamed-15-300x158.png&tbnid=kJnEm7YkVpi1vM&vet=12ahUKEwilmKv6iJ3_AhV7vicCHabXBRkQMygAegUIARDoAw..i&imgrefurl=https%3A%2F%2Fwww.bfmtv.com%2Fcomparateur%2Fmeilleures-enceintes-intelligentes-test-comparatif%2F&docid=NrlIAP4A2JlZIM&w=300&h=158&q=enceinte%20intelligente&ved=2ahUKEwilmKv6iJ3_AhV7vicCHabXBRkQMygAegUIARDoAw", "Enceinte intelligente", "Enceinte connectée avec commande vocale et intégration d'assistants virtuels.", "Electronique");
 const Item30 = new Item("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gamecash.fr%2Fthe-legend-of-zelda-breath-of-the-wild-e84747.html&psig=AOvVaw0oTj5zhYxI22HJAFsQvYrx&ust=1685537119744000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCODV9puJnf8CFQAAAAAdAAAAABAS", "Jeu vidéo", "Jeu d'aventure épique dans un vaste monde ouvert, rempli d'exploration et de défis.", "Jeu");
 
+=======
+<<<<<<< HEAD
+=======
+let item11 = new item("https://boulanger.scene7.com/is/image/Boulanger/0818279025057_h_f_l_0?wid=500&hei=500", "GoPro Hero 9 Black", "Caméra polyvalente pour capturer des vidéos et des photos d'aventures sportives et en plein air.", "Electronique");
+let item12 = new item("https://www.nespresso.com/ecom/medias/sys_master/public/10910199316510/M-0510-VertuoPlus-C-Matt-Black-PDP-Background-Front.jpg?impolicy=productPdpSafeZone&imwidth=1238", "Nespresso Vertuo", "Machine à café automatique avec une large variété de capsules pour préparer de délicieux expressos.", "Cuisine");
+let item13 = new item("https://www.sony.fr/image/5d02da5df552836db894cead8a68f5f3?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF", "Sony WH-1000XM4", "Casque audio haut de gamme avec réduction de bruit active et une qualité sonore exceptionnelle.", "Électronique");
+let item14 = new item("https://m.media-amazon.com/images/I/81U7zKn3htL.jpg", "DJI Mavic Air 2", "Drone compact et puissant pour capturer des images aériennes et des vidéos de haute qualité", "Électronique");
+>>>>>>> imene
+=======
+
+let item1 = ("MacBook Pro", "Ordinateur portable puissant avec écran Retina et processeur rapide.", "./assets/mcbook_pro.jpeg", "Electronique"); 
+let item2 = ("iPhone 12", "Téléphone haut de gamme avec un superbe écran et une caméra avancée.", "./assets/iphone12.jpg", "Electronique"); 
+let item3 = ("VTT Trek", "Vélo tout terrain robuste pour des aventures en montagne.", "https://www.bikelive.com/wp-content/uploads/2020/09/Trek-Supercaliber-9.9-9-scaled.jpg", "Sport"); 
+let item4 = ("Nikon D850", "Appareil photo p^rofessionnel avec une résolution exceptionnelle et de nombreuses fonctionnalités avancée.", "https://static.fnac-static.com/multimedia/Images/FR/NR/99/81/89/9011609/1520-1/tsp20170825094206/Reflex-Nikon-D850-Boitier-nu-Noir.jpg", "Electronique"); 
+let item5 = ("PlayStation 5", "Console de jeux de nouvelle génération offrant des graphismes impressionnants et une expérience de jeu immersive.", "https://www.cdiscount.com/pdt2/I/S/C/1/350x350/PS5DIGCHASSISC/rw/console-playstation-5-edition-digitale.jpg", "Jeux"); 
+let item6 = ("MacBook Pro", "Ordinateur portable puissant avec écran Retina et processeur rapide.", "https://www.cdiscount.com/pdt2/F/N/A/1/700x700/FPTR2FNA/rw/apple-macbook-pro-15-reconditionne-core-i7-2-8.jpg", "Electronique"); 
+let item7 = ("MacBook Pro", "Ordinateur portable puissant avec écran Retina et processeur rapide.", "https://www.cdiscount.com/pdt2/F/N/A/1/700x700/FPTR2FNA/rw/apple-macbook-pro-15-reconditionne-core-i7-2-8.jpg", "Electronique"); 
+let item8 = ("MacBook Pro", "Ordinateur portable puissant avec écran Retina et processeur rapide.", "https://www.cdiscount.com/pdt2/F/N/A/1/700x700/FPTR2FNA/rw/apple-macbook-pro-15-reconditionne-core-i7-2-8.jpg", "Electronique"); 
+let item9 = ("MacBook Pro", "Ordinateur portable puissant avec écran Retina et processeur rapide.", "https://www.cdiscount.com/pdt2/F/N/A/1/700x700/FPTR2FNA/rw/apple-macbook-pro-15-reconditionne-core-i7-2-8.jpg", "Electronique"); 
+let item10 = ("MacBook Pro", "Ordinateur portable puissant avec écran Retina et processeur rapide.", "https://www.cdiscount.com/pdt2/F/N/A/1/700x700/FPTR2FNA/rw/apple-macbook-pro-15-reconditionne-core-i7-2-8.jpg", "Electronique"); 
+>>>>>>> 1140aea40a4891dbf1b2787bb82efe949ec875e2
+>>>>>>> f3ab2a871dc0323e772031756e1d8d0985510e35
