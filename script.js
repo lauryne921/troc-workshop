@@ -44,3 +44,9 @@ const Item30 = new Items("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.
 
 
 
+
+const test = document.getElementById("test"); 
+
+Items.forEach(item => {
+    test.append(item.image); 
+});
