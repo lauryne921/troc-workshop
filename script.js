@@ -40,14 +40,3 @@ const Item27 = new Items("https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww
 const Item28 = new Items("https://www.google.com/imgres?imgurl=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp2264018%2Fk%240430c8019ec00681764a3e0eee8c38d0%2Fsq%2Fpaire-de-talkie-walkies-rechargeables-par-usb-5-km-wt100.jpg%3Fformat%3Dauto%26f%3D800x0&tbnid=sW00zPoqmVTn3M&vet=12ahUKEwj0qovTiJ3_AhUfmycCHU9dDZ0QMygKegUIARCJBA..i&imgrefurl=https%3A%2F%2Fwww.decathlon.fr%2Fp%2Fpaire-de-talkie-walkies-rechargeables-par-usb-5-km-wt100%2F_%2FR-p-324515&docid=wLgVc7i6SYMl8M&w=800&h=800&q=talkie%20walkie&ved=2ahUKEwj0qovTiJ3_AhUfmycCHU9dDZ0QMygKegUIARCJBA", "Talkie-walkie", "Talkie-walkie étanche pour une communication fiable lors des activités en plein air.", "Electronique");
 const Item29 = new Items("https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.bfmtv.com%2Fcomparateur%2Fwp-content%2Fuploads%2F2020%2F09%2Funnamed-15-300x158.png&tbnid=kJnEm7YkVpi1vM&vet=12ahUKEwilmKv6iJ3_AhV7vicCHabXBRkQMygAegUIARDoAw..i&imgrefurl=https%3A%2F%2Fwww.bfmtv.com%2Fcomparateur%2Fmeilleures-enceintes-intelligentes-test-comparatif%2F&docid=NrlIAP4A2JlZIM&w=300&h=158&q=enceinte%20intelligente&ved=2ahUKEwilmKv6iJ3_AhV7vicCHabXBRkQMygAegUIARDoAw", "Enceinte intelligente", "Enceinte connectée avec commande vocale et intégration d'assistants virtuels.", "Electronique");
 const Item30 = new Items("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gamecash.fr%2Fthe-legend-of-zelda-breath-of-the-wild-e84747.html&psig=AOvVaw0oTj5zhYxI22HJAFsQvYrx&ust=1685537119744000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCODV9puJnf8CFQAAAAAdAAAAABAS", "Jeu vidéo", "Jeu d'aventure épique dans un vaste monde ouvert, rempli d'exploration et de défis.", "Jeu");
-
-
-
-
-
-const test = document.getElementById("test"); 
-
-for (let i = 0; i < Items.length; i++) {
-    const itemName = Items[i].nom;
-    console.log(itemName);
-}
