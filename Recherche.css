@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap%27');
+
+{
+  margin: 0;
+  padding: 0;
+}
+
+button {
+    border-radius: 8px;
+    padding: 10px 24px;
+    height: 40px;
+    border: 0px;
+    background-color: #FBAF00;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bouton-spec {
+    background-color: white;
+    color: black;
+}
+
+#navigation-footer-container, #social-media-container {
+    margin-top: 30px;
+}
+
+
+button {
+    border-radius: 8px;
+    padding: 10px 24px;
+    height: 40px;
+    border: 0px;
+    background-color: #FBAF00;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bouton-spec {
+    background-color: white;
+    color: black;
+}
+
+.btn-link-orange {
+    color: #FFD639;
+    background-color: white;
+    font-weight: 500;
+}
+
+.listButtons {
+    display: flex;
+    max-width: 200px;
+  }
+  
+  .filterButton {
+    padding: 2px 20px;
+    border:1px solid grey;
+    width: 200px;
+    text-align: center;
+  }
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 83px;
+}
+
+header img {
+    height: 100px;
+}
+
+#search-bar {
+    border-radius: 22px;
+    border: 2px solid #fbaf00;
+    height: 35px;
+    width: 350px;
+}
+
+.hidden {
+    display: none;
+}
+
+.search-container {
+    display: flex;
+}
+
+.search {
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+
+.section1 {
+    background-image: url("./assets/bandeau2.png");
+    background-size: cover;
+    height: 370px;
+    display: flex;
+    align-items: center;
+}
+
+.section1 > img {
+    width: 100%;
+}
+
+.section1 > div {
+    width: 669px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 24px;
+    margin-left: 83px
+}
+
+h1 {
+    color: white;
+    font-size: 64px;
+    margin-left: 10px;
+}
+  
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+  }
+  
+#test {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .description {
+    margin-top: 5px;
+    color: #777;
+  }
+  
+  .category {
+    margin-top: 5px;
+    color: #888;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 84px;
+    margin-right: 24px;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+  }
+
+  .distance {
+    margin-top: -3300px;
+    padding-top: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .widgetPlusMoins {
+    display: flex; 
+    background: orange;
+    border-radius:5px;
+    justify-content: center;
+    padding:2px 5px;
+  }
+  
+  #widgetValue {
+    width:100%;
+    border-radius:5px;
+    border:none;
+    text-align:center;
+
+  }
+
+  #widgetValue + label {
+    margin-left: -60px;
+    margin-top: 7px;
+  } 
+
+  .widgetContent {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  #widgetValue::after {
+    content: ' km';
+  }  
+  
+  .widgetPlus, .widgetMoins {
+    color:white;
+    border-radius: 30%; 
+    padding: 0px 5px; 
+    cursor: pointer; 
+    font-size: 30px;
+    margin-top: -5px;
+  }
+
+  .type {
+   margin-left: 20px;
+  }
+
+  .myButtonClass {
+    color: #555; 
+    padding: 10px 20px; 
+    border: 1px solid #777;
+    border-radius: 10px; 
+    margin: 2px 5px; 
+    user-select: none;
+    cursor: pointer; 
+  }
+  
+  .myButtonClass:hover, .selected {
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+  }
+  
+  .myButtonClass:first-child {
+    margin-left: 0;
+  }
+  
+  .myButtonClass2 {
+    color: #555; 
+    padding: 10px 20px; 
+    border: 1px solid #777;
+    border-radius: 10px; 
+    margin: 2px 5px; 
+    user-select: none;
+    cursor: pointer; 
+  }
+  
+  .myButtonClass2:hover, .selected {
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+  }
+  
+  .myButtonClass2:first-child {
+    margin-left: 0;
+  }
+
+  .listButtons {
+    display: flex;
+    max-width: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .listButtons2 {
+    display: flex;
+    max-width: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+
+  .etat {
+    margin-left: 20px;
+  }
+
+  .categories {
+    margin-left: 20px;
+  }
+
+  .product-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    flex: 1;
+  }
+
+  footer {
+    position: relative;
+    height: 310px;
+    background-color: #F2F2F2;
+    padding: 10px 150px;
+}
+.assets-footer {
+    position: absolute;
+}
+.left-footer {
+    left: 0;
+    width: 310px;
+}
+.right-light {
+    right: 20%;
+    width: 300px;
+}
+.right-yellow {
+    right: 2%;
+    bottom: 0;
+    width: 165px;
+}
+
+footer h3 {
+    color: #FBAF00;
+    margin-bottom: 10px;
+}
+
+footer .logo {
+    width: 250px;
+}
+
+#footer-wrapper {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 180px;
+}
+
+.app-download-container {
+    display: flex;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+.download-app {
+    width: 150px;
+}
+
+#android {
+    margin-right: 15px;
+}
+
+#navigation-footer-container {
+    display: flex;
+    margin-left: -20px;
+}
+
+#navigation-footer-container a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+#navigation-footer-container a:hover {
+    font-weight: 900;
+}
+
+.pages, .services, .contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.pages, .services {
+    margin-right: 45px;
+}
+
+.contact-assets {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.social-media-logo {
+    width: 32px;
+}
+
+#navigation-footer-container, #social-media-container {
+    margin-top: 30px;
+}

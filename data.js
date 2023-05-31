@@ -10,7 +10,7 @@ class Items {
 let item1 = new Items("./assets/mcbook_pro.jpeg", "MacBook Pro", "Ordinateur portable puissant avec écran Retina et processeur rapide.", "Electronique"); 
 let item2 = new Items("./assets/iphone12.jpg", "iPhone 12", "Téléphone haut de gamme avec un superbe écran et une caméra avancée.", "Electronique"); 
 let item3 = new Items("./assets/vtt.jpg", "VTT Trek", "Vélo tout terrain robuste pour des aventures en montagne.", "Sport"); 
-let item4 = new Items("./assets/nikon.jpg", "Nikon D850", "Appareil photo p^rofessionnel avec une résolution exceptionnelle et de nombreuses fonctionnalités avancée.", "Electronique"); 
+let item4 = new Items("./assets/nikon.jpg", "Nikon D850", "Appareil photo professionnel avec une résolution exceptionnelle et de nombreuses fonctionnalités avancée.", "Electronique"); 
 let item5 = new Items("./assets/ps5.jpg", "PlayStation 5", "Console de jeux de nouvelle génération offrant des graphismes impressionnants et une expérience de jeu immersive.", "Jeux"); 
 let item6 = new Items("./assets/apple_watch.jpg", "Apple Watch Series 6", "Montre connectée avec suivi de la condition physique, notifications et fonctionnalités avancées.", "Electronique"); 
 let item7 = new Items("./assets/ipad_pro.jpg", "iPad Pro", "Tablette haut de gamme avec un écran Retina et des performances exceptionnelles.", "Electronique"); 
@@ -20,7 +20,7 @@ let item10 = new Items("./assets/jbl.jpg", "JBL Charge 4", "Enceinte portable é
 
 let item11 = new Items("./assets/0818279025057_h_f_l_0.webp", "GoPro Hero 9 Black", "Caméra polyvalente pour capturer des vidéos et des photos d'aventures sportives et en plein air.", "Electronique");
 let item12 = new Items("./assets/Nespresso Vertuo.avif", "Nespresso Vertuo", "Machine à café automatique avec une large variété de capsules pour préparer de délicieux expressos.", "Cuisine");
-let item13 = new Items("./assets/SONY WH 100 XM4.avif", "Sony WH-1000XM4", "Casque audio haut de gamme avec réduction de bruit active et une qualité sonore exceptionnelle.", "Electronique");
+let item13 = new Items("./assets/SONY WH 1000 XM4.avif", "Sony WH-1000XM4", "Casque audio haut de gamme avec réduction de bruit active et une qualité sonore exceptionnelle.", "Electronique");
 let item14 = new Items("./assets/DJI MAVIC AIR 2.jpg", "DJI Mavic Air 2", "Drone compact et puissant pour capturer des images aériennes et des vidéos de haute qualité", "Electronique");
 let item15 = new Items("./assets/TheNorthFaceTerra65.webp", "The North Face Terra 65", "Sac à dos spacieux et confortable pour les randonnées de plusieurs jours en montagne.", "Sport");
 let item16 = new Items("./assets/Catan.avif", "Catan", "Jeu de stratégie populaire où les joueurs tentent de coloniser une île en collectant des ressources.", "Jeux");
