@@ -41,7 +41,6 @@ let Item29 = new Items("./assets/enceinte-intelligente.png", "Enceinte intellige
 let Item30 = new Items("./assets/zelda-botw.jpg", "Jeu vidéo", "Jeu d'aventure épique dans un vaste monde ouvert, rempli d'exploration et de défis.", "Jeu");
 
 
-
 let itemsArray = [
     item1, 
     item2,

@@ -1,0 +1,40 @@
+.object-image {
+    height: 350px;
+    width: 400px;
+}
+
+#dynamic-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./assets/create_log_in.png');
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+#dynamic-section h1 {
+    margin: 25px 0;
+}
+
+#dynamic-section p {
+    margin-bottom: 25px;
+}
+
+#dynamic-section button {
+    margin-top: 25px;
+}
+
+#dynamic-section .object-description {
+    margin-top: 20px;
+}
+
+#detail-yellow-section {
+    margin-top: 0px;
+}
+
+.container-search-object {
+    margin: 10px 83px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}

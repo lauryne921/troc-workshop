@@ -10,17 +10,121 @@
 </head>
 <body>
     <header class="header">
-        <a href="home.html"><img src="./assets/logo-troc-it.png"></a>
+        <div class="search-container">
+            <a href="home.html"><img src="./assets/logo-troc-it.png"></a>
+            <div class="search">
+                <input type="search" name="" id="search-bar" placeholder="Recherche">
+            </div>
+        </div>
         <div>
             <button>Créer une annonce</button>
-            <button class="bouton-spec">S'inscrire / Se connecter</button>
+            <button class="btn-link-orange">Les trocs</button>
+            <button class="btn-link-orange">Les dons</button>
+            <button class="bouton-spec">Blog</button>
+            <a href="./create_accocunt.html"><button class="bouton-spec">S'inscrire / Se connecter</button></a>
         </div>
     </header>
-    <section class="section1">
+    <section class="section-img">
         <div>
             <h1>Donnez et récupérez gratuitement des objets autour de vous</h1>
             <button>Je fais un don</button>
         </div>
     </section>
+    <section class="section-don">
+        <h2>Les dons d'objets</h2>
+        <p>
+            Trock’it, regroupe tous les dons d'objets gratuits autour de votre région.
+            Avec Trock’it, donner devient un jeu d'enfant ! 
+            En quelques secondes, publiez et offrez gratuitement un vélo, un meuble ou tout autre objet que vous ne utilisez plus, permettant ainsi de lui donner une seconde vie ! 
+            Joignons nos forces pour donner une nouvelle vie aux objets et contribuer à la préservation de notre environnement.
+        </p>
+        <div>
+            <div id="test"></div>
+            <template data-troc-object>
+                <div class="card">
+                    <div class="image"></div>
+                    <div class="name hidden"></div>
+                    <div class="category hidden"></div>
+                </div>
+            </template>
+        </div>
+        <button>Tous les dons</button>
+    </section>
+    <section class="section-troc">
+        <h2>Les trocs d'objets</h2>
+        <p>
+            Trock’it, regroupe également tous les trocs d'objets gratuits autour de votre région.
+            Avec Trock’it, donner devient un jeu d'enfant ! 
+            En quelques secondes, publiez et offrez gratuitement un vélo, un meuble ou tout autre objet que vous ne utilisez plus, permettant ainsi de lui donner une seconde vie ! 
+            Joignons nos forces pour donner une nouvelle vie aux objets et contribuer à la préservation de notre environnement.
+        </p>
+        <div>
+            <div id="test2"></div>
+            <template data-troc-object>
+                <div class="card">
+                    <div class="image"></div>
+                    <div class="name hidden"></div>
+                    <div class="category hidden"></div>
+                </div>
+            </template>
+        </div>
+        <button>Tous les trocs</button>
+    </section>
+    <section class="section-jaune">
+        <img src="./assets/iphone-13-pro.png">
+        <div class="no-iphone">
+            <h2>Bienvenue sur notre application de troc et de don sécurisée ! </h2>
+            <p>
+                Nous comprenons que votre sécurité est primordiale, c'est pourquoi nous avons mis en place un système d'identification et de caution. Grâce à ce système, nous vérifions l'identité de chaque utilisateur et nous demandons une caution pour garantir des échanges équitables. 
+                Ainsi, vous pouvez troquer et donner en toute confiance !
+            </p>
+        </div>
+    </section>
+    <footer>
+        <img src="./assets/left-footer.png" alt="assets" class="assets-footer left-footer">
+        <img src="./assets/right-footer-light.png" alt="assets" class="assets-footer right-light">
+        <img src="./assets/right-footer-yellow.png" alt="assets" class="assets-footer right-yellow">
+        <div id="footer-wrapper">
+            <div id="first-column-logo">
+                <img src="./assets/logo-troc-it.png" alt="logo" class="logo">
+                <p>Download the app by clicking the link below :</p>
+                <div class="app-download-container">
+                    <img src="./assets/android.png" alt="android" class="download-app" id="android">
+                    <img src="./assets/ios.png" alt="ios" class="download-app" id="ios">
+                </div>
+            </div>
+            <div id="navigation-footer-container">
+                <div class="pages">
+                    <h3>Pages</h3>
+                    <a href="home.html">Home</a>
+                    <a href="Recherche.html">Search</a>
+                    <a href="#">Profil</a>
+                    <a href="#">Help</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="services">
+                    <h3>Services</h3>
+                    <a href="#">Don</a>
+                    <a href="#">Troc</a>
+                </div>
+                <div class="contact">
+                    <h3>Contact</h3>
+                    <a href="tel:(000) 555-2222" ><img src="./assets/phone-telephone.png" alt="phone" class="contact-assets">(000) 555-2222</a>
+                    <a href="mailto:LoremIpsun@trocit.com"><img src="./assets/mail.png" alt="mail" class="contact-assets">LoremIpsun@trocit.com</a>
+                    <a href="#"><img src="./assets/local-two.png" alt="localisation" class="contact-assets">2972 Lorem address, City 0000 </a>
+                </div>
+            </div>
+            <div id="social-media-container">
+                <h3>Social Media</h3>
+                <div class="social-media">
+                    <img src="./assets/facebook.png" alt="facebook" class="social-media-logo">
+                    <img src="./assets/twitter.png" alt="twitter" class="social-media-logo">
+                    <img src="./assets/instagram.png" alt="instagram" class="social-media-logo">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="data.js"></script>
+    <script src="home.js"></script>
 </body>
 </html>

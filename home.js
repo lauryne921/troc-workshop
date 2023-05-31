@@ -1,7 +1,3 @@
-let itemImage; 
-const test = document.getElementById('test'); 
-
-
 const searchBar = document.getElementById('search-bar');
 searchBar.addEventListener('input', handleSearch);
 
@@ -14,10 +10,6 @@ function handleSearch() {
     });
     
     displaySearchResults(searchResults);
-
-    if (searchBar.value === '') {
-        containerSearchObject.innerHTML = '';
-    } 
 }
 
 function displaySearchResults(results) {  
@@ -36,38 +28,49 @@ function displaySearchResults(results) {
         nameElement.textContent = item.name;
         resultItem.appendChild(nameElement);
       
-        const descriptionElement = document.createElement('p');
-        descriptionElement.textContent = item.description;
-        resultItem.appendChild(descriptionElement);
-      
-        const categoryElement = document.createElement('p');
-        categoryElement.textContent = `Catégorie: ${item.category}`;
-        resultItem.appendChild(categoryElement);
-      
         test.appendChild(resultItem);
     });
 }
 
 
-
-
-
-itemsArray.forEach(item => {
+let itemImage; 
+const test = document.getElementById('test');
+itemImage = itemsArray.slice(0, 5).map(item => {
     const trocObject = document.querySelector('[data-troc-object]');
     const card = trocObject.content.cloneNode(true).children[0];
     const images = card.querySelector('.image');
-    const name = card.querySelector('.name');
-    const description = card.querySelector('.description');
+    const name= card.querySelector('.name');
     const category = card.querySelector('.category');
 
     images.style.backgroundImage = `url('${item.image}')`; 
     images.style.backgroundSize = 'cover';
     images.style.backgroundRepeat = 'no-repeat';
-    category.textContent = `${item.category}`; 
     name.textContent = `${item.name}`; 
-    description.textContent = `${item.description}`;
+    category.textContent = `${item.category}`;
 
     test.append(card);
+
+    card.addEventListener('click', () => {
+        window.location.href = './detail.html';
+        localStorage.setItem('nameObject', item.name);
+    });
+});
+
+const test2 = document.getElementById('test2');
+itemImage = itemsArray.slice(6, 11).map(item => {
+    const trocObject = document.querySelector('[data-troc-object]');
+    const card = trocObject.content.cloneNode(true).children[0];
+    const images = card.querySelector('.image');
+    const name= card.querySelector('.name');
+    const category = card.querySelector('.category');
+
+    images.style.backgroundImage = `url('${item.image}')`; 
+    images.style.backgroundSize = 'cover';
+    images.style.backgroundRepeat = 'no-repeat';
+    name.textContent = `${item.name}`; 
+    category.textContent = `${item.category}`;
+
+    test2.append(card);
 
     card.addEventListener('click', () => {
         window.location.href = './detail.html';
