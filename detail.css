@@ -32,3 +32,9 @@
 #detail-yellow-section {
     margin-top: 0px;
 }
+
+.container-search-object {
+    margin: 10px 83px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}

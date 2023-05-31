@@ -143,6 +143,11 @@ header img {
     border: 2px solid #fbaf00;
     height: 35px;
     width: 350px;
+    background-image: url('./assets/loupe.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 2%;
+    padding-left: 50px;
 }
 
 .hidden {
