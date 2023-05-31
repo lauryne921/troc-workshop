@@ -39,3 +39,4 @@ let Item27 = new Items("./assets/parfum-luxe", "Parfum de luxe", "Parfum fémini
 let Item28 = new Items("./assets/talkie-walkie", "Talkie-walkie", "Talkie-walkie étanche pour une communication fiable lors des activités en plein air.", "Electronique");
 let Item29 = new Items("./assets/enceinte-intelligente", "Enceinte intelligente", "Enceinte connectée avec commande vocale et intégration d'assistants virtuels.", "Electronique");
 let Item30 = new Items("./assets/zelda-botw", "Jeu vidéo", "Jeu d'aventure épique dans un vaste monde ouvert, rempli d'exploration et de défis.", "Jeu");
+
