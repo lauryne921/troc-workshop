@@ -104,6 +104,8 @@ footer p {
     margin-top: 30px;
 }
 
+
+
 button {
     border-radius: 8px;
     padding: 10px 24px;
@@ -154,4 +156,13 @@ header img {
 h1 {
     color: white;
     font-size: 64px;
+}
+
+.section-don {
+    margin-left: 83px;
+    margin-top: 72px;
+}
+
+.section-troc {
+    margin-left: 83px;
 }
