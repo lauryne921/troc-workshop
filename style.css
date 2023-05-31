@@ -179,6 +179,79 @@ header h1 {
     margin-top: 72px;
 }
 
+.section-don > p {
+    margin-top: 25px;
+    width: 1005px;
+}
+
+#test {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 1005px;
+}
+
+.section-don > button {
+    margin-top: 25px;
+}
+
+.section-don > h2 {
+    font-size: 48px;
+}
+
+.section-troc > h2 {
+    font-size: 48px;
+}
+
 .section-troc {
     margin-left: 83px;
+    margin-top: 72px;
+}
+
+.section-troc > p {
+    margin-top: 25px;
+    width: 1005px;
+}
+
+#test2 {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 1005px;
+}
+
+.section-troc > button {
+    margin-top: 25px;
+}
+
+.section-jaune {
+    display: flex;
+    align-items: center;
+    background-color: #FFD639;
+    color: white;
+    height: 503px;
+    margin-top: 72px;
+}
+
+.section-jaune > img {
+    position: absolute;
+    height: 500px;
+    width: 700px;
+    margin-left: 795px;
+}
+
+.no-iphone {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-left: 83px;
+    width: 729px;
+}
+
+.no-iphone > h2 {
+    font-size: 50px;
+}
+
+.no-iphone > p {
+    font-size: 20px;
 }

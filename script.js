@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 let itemImage; 
 const test = document.getElementById('test'); 
 
@@ -45,4 +47,8 @@ function searchObject() {
             console.log('hello'); 
     });
 });
+<<<<<<< HEAD
 
+=======
+>>>>>>> c0613d88ccf765aa00d89ab24450b053294ca6be
+>>>>>>> 5d12ae3c02c82a6e13f31f1ccb7ac3b085df78f7
