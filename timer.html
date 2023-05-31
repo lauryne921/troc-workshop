@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minuteur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="home.html"><img src="./assets/logo-troc-it.png"></a>
+        <div>
+            <button>Créer une annonce</button>
+            <button class="bouton-spec">S'inscrire / Se connecter</button>
+        </div>
+    </header>
+    <section class="section-timer">
+        <img src="./assets/table-ping-pong.jpg">
+        <div id="timer">00:00:00</div>
+        <div class="option">
+            <input type="radio" name="duration" id="radio2h" value="7200">
+            <label for="radio2h">2 heures</label>
+        </div>
+        <div class="option">
+            <input type="radio" name="duration" id="radio12h" value="43200">
+            <label for="radio12h">12 heures</label>
+        </div>   
+        <div class="option">
+            <input type="radio" name="duration" id="radio24h" value="86400">
+            <label for="radio24h">24 heures</label>
+        </div>
+            <button id="start-button" disabled>Démarrer</button>
+            <button id="stop-button" disabled>Arrêter</button>
+        </div>
+    </section>
+    <script src="timer.js"></script>
+</body>
+</html>
