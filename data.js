@@ -20,7 +20,7 @@ let item10 = new Items("./assets/jbl.jpg", "JBL Charge 4", "Enceinte portable é
 
 let item11 = new Items("./assets/0818279025057_h_f_l_0.webp", "GoPro Hero 9 Black", "Caméra polyvalente pour capturer des vidéos et des photos d'aventures sportives et en plein air.", "Electronique");
 let item12 = new Items("./assets/Nespresso Vertuo.avif", "Nespresso Vertuo", "Machine à café automatique avec une large variété de capsules pour préparer de délicieux expressos.", "Cuisine");
-let item13 = new Items("./assets/SONY WH 100 XM4.avif", "Sony WH-1000XM4", "Casque audio haut de gamme avec réduction de bruit active et une qualité sonore exceptionnelle.", "Electronique");
+let item13 = new Items("./assets/SONY WH 1000 XM4.avif", "Sony WH-1000XM4", "Casque audio haut de gamme avec réduction de bruit active et une qualité sonore exceptionnelle.", "Electronique");
 let item14 = new Items("./assets/DJI MAVIC AIR 2.jpg", "DJI Mavic Air 2", "Drone compact et puissant pour capturer des images aériennes et des vidéos de haute qualité", "Electronique");
 let item15 = new Items("./assets/TheNorthFaceTerra65.webp", "The North Face Terra 65", "Sac à dos spacieux et confortable pour les randonnées de plusieurs jours en montagne.", "Sport");
 let item16 = new Items("./assets/Catan.avif", "Catan", "Jeu de stratégie populaire où les joueurs tentent de coloniser une île en collectant des ressources.", "Jeux");
@@ -39,7 +39,6 @@ let Item27 = new Items("./assets/parfum-luxe.jpg", "Parfum de luxe", "Parfum fé
 let Item28 = new Items("./assets/talkie-walkie.avif", "Talkie-walkie", "Talkie-walkie étanche pour une communication fiable lors des activités en plein air.", "Electronique");
 let Item29 = new Items("./assets/enceinte-intelligente.png", "Enceinte intelligente", "Enceinte connectée avec commande vocale et intégration d'assistants virtuels.", "Electronique");
 let Item30 = new Items("./assets/zelda-botw.jpg", "Jeu vidéo", "Jeu d'aventure épique dans un vaste monde ouvert, rempli d'exploration et de défis.", "Jeu");
-
 
 
 let itemsArray = [

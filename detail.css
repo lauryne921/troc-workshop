@@ -1,0 +1,22 @@
+.yellow-section {
+    background-color: #FFD639;
+    padding: 0px 100px;
+}
+
+#wrapper-yellow {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#wrapper-yellow #text {
+    color: white;
+    padding: 150px 0px 150px 30px;
+}
+
+#wrapper-yellow #text h2 {
+    margin-bottom: 20px;
+}
+
+.yellow-section #image-container img {
+    width: 600px;
+}
