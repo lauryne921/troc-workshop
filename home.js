@@ -1,5 +1,6 @@
 const searchBar = document.getElementById('search-bar');
 searchBar.addEventListener('input', handleSearch);
+const containerSearchObject = document.querySelector('.container-search-object'); 
 
 function handleSearch() {
     const searchTerm = searchBar.value.toLowerCase();
@@ -10,10 +11,14 @@ function handleSearch() {
     });
     
     displaySearchResults(searchResults);
+
+    if (searchBar.value === '') {
+        containerSearchObject.innerHTML = '';
+    } 
 }
 
 function displaySearchResults(results) {  
-    test.innerHTML = '';
+    containerSearchObject.innerHTML = ''; 
   
     results.forEach(item => {
         const resultItem = document.createElement('div');
@@ -28,7 +33,7 @@ function displaySearchResults(results) {
         nameElement.textContent = item.name;
         resultItem.appendChild(nameElement);
       
-        test.appendChild(resultItem);
+        containerSearchObject.appendChild(resultItem);
     });
 }
 
