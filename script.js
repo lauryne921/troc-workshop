@@ -76,24 +76,34 @@ let itemsArray = [
 ];
 
 
-let itemImage = itemsArray.map((item) => item.image);
+let itemImage; 
+const test = document.getElementById('test');
+
 
 window.addEventListener('load', () => {
     console.log('hey');
-    let html = '';
 
-    itemsArray.forEach((item) => {
-        html += `
-            <div class="item">
-            <img class="image" src="${item.image}" alt="${item.name}">
-            <h3 class="name">${item.name}</h3>
-            <p class="description">${item.description}</p>
-            <p class="category">${item.category}</p>
-            </div>
-        `;
+    itemImage = itemsArray.map(item => {
+        const trocObject = document.querySelector('[data-troc-object]');
+        const card = trocObject.content.cloneNode(true);
+        const images = card.querySelector('.image');
+        const name = card.querySelector('.name');
+        const description = card.querySelector('.description');
+        const category = card.querySelector('.category');
+
+        images.style.backgroundImage = `url('${item.image}')`; 
+        images.style.backgroundSize = 'cover';
+        images.style.backgroundRepeat = 'no-repeat';
+        category.textContent = `${item.category}`; 
+        name.textContent = `${item.name}`; 
+        description.textContent = `${item.description}`;
+
+        test.append(card);
+
+        card.addEventListener('click', (event) => {
+            event.stopPropagation();
+            console.log('hello'); 
+        });
     });
-    test.innerHTML = html;
 });
-
-
 
