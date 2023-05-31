@@ -10,43 +10,39 @@
 </head>
 <body>
     <header class="header">
-        <a href="home.html"><img src="./assets/logo-troc-it.png"></a>
+        <div class="search-container">
+            <a href="home.html"><img src="./assets/logo-troc-it.png"></a>
+            <div class="search">
+                <input type="search" name="" id="search-bar" data-search>
+            </div>
+        </div>
         <div>
             <button>Créer une annonce</button>
+            <button class="btn-link-orange">Les trocs</button>
+            <button class="btn-link-orange">Les dons</button>
             <button class="bouton-spec">Blog</button>
-            <button class="bouton-spec">S'inscrire / Se connecter</button>
+            <a href="./create_accocunt.html"><button class="bouton-spec">S'inscrire / Se connecter</button></a>
         </div>
     </header>
-    <section class="section-img">
-        <div>
-            <h1>Donnez et récupérez gratuitement des objets autour de vous</h1>
-            <button>Je fais un don</button>
-        </div>
-    </section>
-    <section class="section-don">
-        <h2>Les dons d'objets</h2>
-        <p>Description</p>
-        <div>
 
-        </div>
-        <button>Tous les dons</button>
-    </section>
-    <section class="section-troc">
-        <h2>Les trocs d'objets</h2>
+
+    <section id="dynamic-section">
+        <h1 class="object-name"></h1>
+        <p class="object-category"></p>
+        <div class="object-image"></div>
+        <button>Contacter le troqueur</button>
+        <div class="object-description"></div>
     </section>
 
 
-    <section class="yellow-section">
-        <div id="wrapper-yellow">
-            <div id="text">
-                <h2>Bienvenue sur notre appliation de troc et de don sécurisée !</h2>
-                <p>Nous comprenons que votre sécurité est primordiale, c'est pourquoi nous avons mis en place un système d'identification et de caution.</p>
-                <p>Grâce à ce système, nous vérifions l'identité de chaque utilisateur et nous demandons une caution pour garantir des échanges équitables.</p>
-                <p>Ainsi, vous pouvez troquer et donner en toute confiance !</p>
-            </div>
-            <div id="image-container">
-                <img src="./assets/iphone_13.png" alt="iphone 13">
-            </div>
+    <section class="section-jaune" id="detail-yellow-section">
+        <img src="./assets/iphone-13-pro.png">
+        <div class="no-iphone">
+            <h2>Bienvenue sur notre application de troc et de don sécurisée ! </h2>
+            <p>
+                Nous comprenons que votre sécurité est primordiale, c'est pourquoi nous avons mis en place un système d'identification et de caution. Grâce à ce système, nous vérifions l'identité de chaque utilisateur et nous demandons une caution pour garantir des échanges équitables. 
+                Ainsi, vous pouvez troquer et donner en toute confiance !
+            </p>
         </div>
     </section>
 

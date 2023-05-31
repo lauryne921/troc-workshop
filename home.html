@@ -10,11 +10,18 @@
 </head>
 <body>
     <header class="header">
-        <a href="home.html"><img src="./assets/logo-troc-it.png"></a>
+        <div class="search-container">
+            <a href="home.html"><img src="./assets/logo-troc-it.png"></a>
+            <div class="search">
+                <input type="search" name="" id="search-bar" data-search>
+            </div>
+        </div>
         <div>
             <button>Créer une annonce</button>
+            <button class="btn-link-orange">Les trocs</button>
+            <button class="btn-link-orange">Les dons</button>
             <button class="bouton-spec">Blog</button>
-            <button class="bouton-spec">S'inscrire / Se connecter</button>
+            <a href="./create_accocunt.html"><button class="bouton-spec">S'inscrire / Se connecter</button></a>
         </div>
     </header>
     <section class="section-img">
@@ -36,6 +43,7 @@
             <template data-troc-object>
                 <div class="card">
                     <div class="image"></div>
+                    <div class="name hidden"></div>
                 </div>
             </template>
         </div>
@@ -54,6 +62,7 @@
             <template data-troc-object>
                 <div class="card">
                     <div class="image"></div>
+                    <div class="name hidden"></div>
                 </div>
             </template>
         </div>
