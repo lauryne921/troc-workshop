@@ -1,25 +1,67 @@
-<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
+button {
+    border-radius: 8px;
+    padding: 10px 24px;
+    height: 40px;
+    border: 0px;
+    background-color: #FBAF00;
+    color: white;
+    font-size: 16px;
+}
+
+.bouton-spec {
+    background-color: white;
+    color: black;
+}
+
 .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 83px;
+}
+
+header img {
+    height: 100px;
+}
+
+.section1 {
+    background-image: url("./assets/bandeau.png");
+    background-size: "cover";
+    height: 370px;
     display: flex;
     align-items: center;
 }
 
-.header > button {
-    border-radius: 8px;
-    padding: 10px;
-    height: 50px;
+.section1 > img {
+    width: 100%;
 }
 
 .section1 {
     height: 400px;
     width: 100%;
-=======
+}
+
 .image {
     width: 100px;
->>>>>>> 7a55068d3d40ff4ad87917036d8d36072acccda5
+}
+
+.section1 > div {
+    width: 669px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 24px;
+    margin-left: 83px
+}
+
+h1 {
+    color: white;
+    font-size: 64px;
 }
