@@ -20,7 +20,7 @@ let item10 = new Items("./assets/jbl.jpg", "JBL Charge 4", "Enceinte portable é
 
 let item11 = new Items("./assets/0818279025057_h_f_l_0.webp", "GoPro Hero 9 Black", "Caméra polyvalente pour capturer des vidéos et des photos d'aventures sportives et en plein air.", "Electronique");
 let item12 = new Items("./assets/Nespresso Vertuo.avif", "Nespresso Vertuo", "Machine à café automatique avec une large variété de capsules pour préparer de délicieux expressos.", "Cuisine");
-let item13 = new Items("./assets/SONY WH 1000 XM4.avif", "Sony WH-1000XM4", "Casque audio haut de gamme avec réduction de bruit active et une qualité sonore exceptionnelle.", "Electronique");
+let item13 = new Items("./assets/SONY WH 100 XM4.avif", "Sony WH-1000XM4", "Casque audio haut de gamme avec réduction de bruit active et une qualité sonore exceptionnelle.", "Electronique");
 let item14 = new Items("./assets/DJI MAVIC AIR 2.jpg", "DJI Mavic Air 2", "Drone compact et puissant pour capturer des images aériennes et des vidéos de haute qualité", "Electronique");
 let item15 = new Items("./assets/TheNorthFaceTerra65.webp", "The North Face Terra 65", "Sac à dos spacieux et confortable pour les randonnées de plusieurs jours en montagne.", "Sport");
 let item16 = new Items("./assets/Catan.avif", "Catan", "Jeu de stratégie populaire où les joueurs tentent de coloniser une île en collectant des ressources.", "Jeux");
@@ -76,21 +76,34 @@ let itemsArray = [
 ];
 
 
-let itemImage = itemsArray.map((item) => item.image);
+let itemImage; 
+const test = document.getElementById('test');
+
 
 window.addEventListener('load', () => {
     console.log('hey');
-    let html = '';
 
-    itemsArray.forEach((item) => {
-        html += `
-            <div class="item">
-            <img class="image" src="${item.image}" alt="${item.name}">
-            <h3 class="name">${item.name}</h3>
-            <p class="description">${item.description}</p>
-            <p class="category">${item.category}</p>
-            </div>
-        `;
+    itemImage = itemsArray.map(item => {
+        const trocObject = document.querySelector('[data-troc-object]');
+        const card = trocObject.content.cloneNode(true);
+        const images = card.querySelector('.image');
+        const name = card.querySelector('.name');
+        const description = card.querySelector('.description');
+        const category = card.querySelector('.category');
+
+        images.style.backgroundImage = `url('${item.image}')`; 
+        images.style.backgroundSize = 'cover';
+        images.style.backgroundRepeat = 'no-repeat';
+        category.textContent = `${item.category}`; 
+        name.textContent = `${item.name}`; 
+        description.textContent = `${item.description}`;
+
+        test.append(card);
+
+        card.addEventListener('click', (event) => {
+            event.stopPropagation();
+            console.log('hello'); 
+        });
     });
     test.innerHTML = html;
 });
