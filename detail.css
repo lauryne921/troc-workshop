@@ -1,22 +1,34 @@
-.yellow-section {
-    background-color: #FFD639;
-    padding: 0px 100px;
+.object-image {
+    height: 350px;
+    width: 400px;
 }
 
-#wrapper-yellow {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+#dynamic-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./assets/create_log_in.png');
+    background-size: cover;
+    padding-bottom: 30px;
 }
 
-#wrapper-yellow #text {
-    color: white;
-    padding: 150px 0px 150px 30px;
+#dynamic-section h1 {
+    margin: 25px 0;
 }
 
-#wrapper-yellow #text h2 {
-    margin-bottom: 20px;
+#dynamic-section p {
+    margin-bottom: 25px;
 }
 
-.yellow-section #image-container img {
-    width: 600px;
+#dynamic-section button {
+    margin-top: 25px;
+}
+
+#dynamic-section .object-description {
+    margin-top: 20px;
+}
+
+#detail-yellow-section {
+    margin-top: 0px;
 }
