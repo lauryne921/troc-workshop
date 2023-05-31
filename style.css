@@ -114,6 +114,7 @@ button {
     background-color: #FBAF00;
     color: white;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .bouton-spec {
