@@ -132,19 +132,15 @@ header img {
     height: 100px;
 }
 
-.section1 {
+.section-img {
     background-image: url("./assets/bandeau.png");
-    background-size: "cover";
+    background-size: cover;
     height: 370px;
     display: flex;
     align-items: center;
 }
 
-.section1 > img {
-    width: 100%;
-}
-
-.section1 > div {
+.section-img > div {
     width: 669px;
     display: flex;
     align-items: flex-start;
