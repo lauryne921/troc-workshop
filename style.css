@@ -103,3 +103,55 @@ footer p {
 #navigation-footer-container, #social-media-container {
     margin-top: 30px;
 }
+
+button {
+    border-radius: 8px;
+    padding: 10px 24px;
+    height: 40px;
+    border: 0px;
+    background-color: #FBAF00;
+    color: white;
+    font-size: 16px;
+}
+
+.bouton-spec {
+    background-color: white;
+    color: black;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 83px;
+}
+
+header img {
+    height: 100px;
+}
+
+.section1 {
+    background-image: url("./assets/bandeau.png");
+    background-size: "cover";
+    height: 370px;
+    display: flex;
+    align-items: center;
+}
+
+.section1 > img {
+    width: 100%;
+}
+
+.section1 > div {
+    width: 669px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 24px;
+    margin-left: 83px
+}
+
+h1 {
+    color: white;
+    font-size: 64px;
+}
