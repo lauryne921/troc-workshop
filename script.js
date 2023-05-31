@@ -29,6 +29,18 @@ let item18 = new Items("./assets/IpodTouch.jpg", "IPod Touch", "Lecteur de musiq
 let item19 = new Items("./assets/ASUS ROG Swift.jpeg", "ASUS ROG Swift PG279Q", "Moniteur haute résolution avec un taux de rafraîchissement élevé pour une expérience de jeu fluide.", "Jeux");
 let item20 = new Items("./assets/Samsonite Spinner.jpeg", "Samsonite Spinner", "Valise durable et pratique avec des roulettes pour faciliter les déplacements.", "Transport");
 
+<<<<<<< HEAD
+let Item21 = new Items("./assets/plancha-electrique", "Plancha électrique", "Plancha électrique pour griller et cuisiner des aliments de manière saine et savoureuse.", "cuisine");
+let Item22 = new Items("./assets/appareil-fitness", "Appareil de fitness", "Appareil d'exercice pour le cardio-training et le renforcement musculaire à domicile.", "Sport");
+let Item23 = new Items("./assets/sac-a-main", "Sac à main", "Sac à main élégant et intemporel en cuir de haute qualité.", "Esthétique");
+let Item24 = new Items("./assets/imprimante-multifonction", "Imprimante multifonction", "Imprimante, scanner et photocopieur sans cartouches d'encre, avec une grande capacité de réservoir.", "Electronique");
+let Item25 = new Items("./assets/table-de-ping-pong", "Table de ping-pong", "Table de ping-pong de qualité professionnelle pour des parties amusantes en intérieur ou en extérieur.", "Sport");
+let Item26 = new Items("./assets/kit-peinture-artistique", "Kit de peinture artistique", "Ensemble complet de peintures, pinceaux et toiles pour les amateurs d'art.", "Art");
+let Item27 = new Items("./assets/parfum-luxe", "Parfum de luxe", "Parfum féminin élégant et raffiné avec des notes florales et orientales.", "Esthétique");
+let Item28 = new Items("./assets/talkie-walkie", "Talkie-walkie", "Talkie-walkie étanche pour une communication fiable lors des activités en plein air.", "Electronique");
+let Item29 = new Items("./assets/enceinte-intelligente", "Enceinte intelligente", "Enceinte connectée avec commande vocale et intégration d'assistants virtuels.", "Electronique");
+let Item30 = new Items("./assets/zelda-botw", "Jeu vidéo", "Jeu d'aventure épique dans un vaste monde ouvert, rempli d'exploration et de défis.", "Jeu");
+=======
 let Item21 = new Items("./assets/plancha-electrique.jpg", "Plancha électrique", "Plancha électrique pour griller et cuisiner des aliments de manière saine et savoureuse.", "cuisine");
 let Item22 = new Items("./assets/appareil-fitness.jpg", "Appareil de fitness", "Appareil d'exercice pour le cardio-training et le renforcement musculaire à domicile.", "Sport");
 let Item23 = new Items("./assets/sac-a-main.jpg", "Sac à main", "Sac à main élégant et intemporel en cuir de haute qualité.", "Esthétique");
@@ -106,4 +118,3 @@ window.addEventListener('load', () => {
         });
     });
 });
-
