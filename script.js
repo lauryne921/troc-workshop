@@ -2,23 +2,52 @@ let itemImage;
 const test = document.getElementById('test'); 
 
 
-function searchObject() {
-    const searchBar = document.getElementById('search-bar');
-    searchBar.addEventListener('input', e => {
-      const value = e.target.value.toLowerCase(); // Convertissez la valeur saisie en minuscules
-  
-      itemsArray.forEach(item => {
-        const isVisible = item.name.toLowerCase().includes(value) || item.category.toLowerCase().includes(value);
-        // Vérifiez si le nom de l'élément ou la catégorie correspond à la recherche (en minuscules)
-  
-        if (item) {
-          item.classList.toggle('hidden', !isVisible);
-        }
-      });
-    });
-  }
+const searchBar = document.getElementById('search-bar');
+searchBar.addEventListener('input', handleSearch);
 
-searchObject();
+function handleSearch() {
+    const searchTerm = searchBar.value.toLowerCase();
+    const searchResults = itemsArray.filter(item => {
+        const itemName = item.name.toLowerCase();
+        const itemCategory = item.category.toLowerCase();
+        return itemName.includes(searchTerm) || itemCategory.includes(searchTerm);
+    });
+    
+    displaySearchResults(searchResults);
+
+    if (searchBar.value === '') {
+        containerSearchObject.innerHTML = '';
+    } 
+}
+
+function displaySearchResults(results) {  
+    test.innerHTML = '';
+  
+    results.forEach(item => {
+        const resultItem = document.createElement('div');
+      
+        const imageElement = document.createElement('img');
+        imageElement.src = item.image;
+        imageElement.alt = item.name;
+        imageElement.classList.add('image');
+        resultItem.appendChild(imageElement);
+      
+        const nameElement = document.createElement('h4');
+        nameElement.textContent = item.name;
+        resultItem.appendChild(nameElement);
+      
+        const descriptionElement = document.createElement('p');
+        descriptionElement.textContent = item.description;
+        resultItem.appendChild(descriptionElement);
+      
+        const categoryElement = document.createElement('p');
+        categoryElement.textContent = `Catégorie: ${item.category}`;
+        resultItem.appendChild(categoryElement);
+      
+        test.appendChild(resultItem);
+    });
+}
+
 
 
 
