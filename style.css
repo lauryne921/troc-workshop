@@ -255,3 +255,9 @@ header h1 {
 .no-iphone > p {
     font-size: 20px;
 }
+
+.btn-link-orange {
+    color: #FFD639;
+    background-color: white;
+    font-weight: 500;
+}
