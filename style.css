@@ -304,3 +304,9 @@ input[type="radio"][name="duration"] {
     align-items: center;
     margin-bottom: 10px;
   }
+
+  .container-search-object {
+    margin: 10px 83px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
