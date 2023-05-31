@@ -27,5 +27,4 @@ window.addEventListener('load', () => {
             console.log('hello'); 
         });
     });
-    test.innerHTML = html;
 });
