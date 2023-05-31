@@ -1,9 +1,27 @@
 let itemImage; 
-const test = document.getElementById('test');
+const test = document.getElementById('test'); 
 
 
-window.addEventListener('load', () => {
-    console.log('hey');
+function searchObject() {
+    const searchBar = document.getElementById('search-bar');
+    searchBar.addEventListener('input', e => {
+      const value = e.target.value.toLowerCase(); // Convertissez la valeur saisie en minuscules
+  
+      itemsArray.forEach(item => {
+        const isVisible = item.name.toLowerCase().includes(value) || item.category.toLowerCase().includes(value);
+        // Vérifiez si le nom de l'élément ou la catégorie correspond à la recherche (en minuscules)
+  
+        if (item) {
+          item.classList.toggle('hidden', !isVisible);
+        }
+      });
+    });
+  }
+
+  searchObject();
+
+
+
 
     itemImage = itemsArray.map(item => {
         const trocObject = document.querySelector('[data-troc-object]');
@@ -25,6 +43,6 @@ window.addEventListener('load', () => {
         card.addEventListener('click', (event) => {
             event.stopPropagation();
             console.log('hello'); 
-        });
     });
 });
+

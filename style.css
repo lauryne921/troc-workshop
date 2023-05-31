@@ -132,6 +132,26 @@ header img {
     height: 100px;
 }
 
+#search-bar {
+    border-radius: 22px;
+    border: 2px solid #fbaf00;
+    height: 35px;
+    width: 350px;
+}
+
+.hidden {
+    display: none;
+}
+
+.search-container {
+    display: flex;
+}
+
+.search {
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
 .section-img {
     background-image: url("./assets/bandeau.png");
     background-size: cover;
@@ -149,7 +169,7 @@ header img {
     margin-left: 83px
 }
 
-h1 {
+header h1 {
     color: white;
     font-size: 64px;
 }
